@@ -1,4 +1,4 @@
-var PROTO_PATH = __dirname + '/protos/coffefi.proto';
+var PROTO_PATH = __dirname + '/coffefi.proto';
 
 var grpc = require('grpc');
 var protoLoader = require('@grpc/proto-loader');
