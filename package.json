@@ -1,0 +1,32 @@
+{
+  "name": "coffefi",
+  "version": "1.0.0",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.1.0",
+    "async": "^1.5.2",
+    "google-protobuf": "^3.0.0",
+    "grpc": "^1.11.0",
+    "lodash": "^4.6.1",
+    "minimist": "^1.2.0"
+  },
+  "description": "Homework of DS, UFC 2019.2",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js & && node client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acmlira/coffefi.git"
+  },
+  "keywords": [
+    "proto",
+    "protobuf"
+  ],
+  "author": "Allan C. Marques",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acmlira/coffefi/issues"
+  },
+  "homepage": "https://github.com/acmlira/coffefi#readme"
+}
